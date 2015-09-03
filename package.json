@@ -1,0 +1,23 @@
+{
+  "name": "mson-zoo",
+  "version": "1.0.0",
+  "description": "Collection of MSON samples that can be used as a showcase or testing purposes",
+  "main": "samples/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiaryio/mson-zoo.git"
+  },
+  "keywords": [
+    "mson",
+    "samples"
+  ],
+  "author": "Apiary",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiaryio/mson-zoo/issues"
+  },
+  "homepage": "https://github.com/apiaryio/mson-zoo#readme"
+}
