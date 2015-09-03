@@ -1,0 +1,5 @@
+- tags (array)
+    - (object)
+        - name: snow (string)
+        - description (string)
+    - 42 (number)

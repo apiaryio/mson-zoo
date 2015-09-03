@@ -1,0 +1,9 @@
+- id: 1 (required)
+- name: A green door
+- price: 12.50 (number)
+- tags: home, green
+- vector (array, optional)
+    - 1
+    - 2
+    - 3
+- available: false (boolean)
