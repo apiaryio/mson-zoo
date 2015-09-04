@@ -1,6 +1,6 @@
 {
   "name": "mson-zoo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of MSON samples that can be used as a showcase or testing purposes",
   "main": "samples/",
   "lib": "samples/",
