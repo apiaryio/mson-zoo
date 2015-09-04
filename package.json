@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Collection of MSON samples that can be used as a showcase or testing purposes",
   "main": "samples/",
+  "lib": "samples/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
