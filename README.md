@@ -1,4 +1,4 @@
-# mson-zoo
+# MSON Zoo
 
 ![Alt text](/media/zoo.png)
 
