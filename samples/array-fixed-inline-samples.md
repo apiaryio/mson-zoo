@@ -1,1 +1,7 @@
-- address: *street*, city, *state* (array, fixed)
+# Data Structures
+
+## Example (array, fixed)
+
+- *street*
+- city
+- *state*

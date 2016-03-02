@@ -29,9 +29,11 @@ This repository is a collection of MSON examples, it can be used as a showcase, 
 3. **Use it**
 
   ```JavaScript
-  console.log(msonZoo.samples);
-  console.log(msonZoo.samples[0].name);
-  console.log(msonZoo.samples[0].content);
+  console.log(msonZoo.examples);
+  console.log(msonZoo.examples[0].name); // Returns a name of the example
+  console.log(msonZoo.examples[0].mson); // Returns MSON
+  console.log(msonZoo.examples[0].ast); // Returns AST
+  console.log(msonZoo.examples[0].refract); // Returns Refract
   ```
 
 # License
