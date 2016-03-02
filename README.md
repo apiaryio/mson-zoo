@@ -1,24 +1,39 @@
 # MSON Zoo
 
-![Alt text](/media/zoo.png)
+![MSON Zoo](/media/zoo.png)
 
-This repository is a collection of MSON samples that can be used as a showcase or testing purposes.
+This repository is a collection of MSON examples, it can be used as a showcase, or for testing purposes.
 
-You can consume this adding it as a git submodule.
+## Getting Started
 
-```bash
-$ git submodule add https://github.com/apiaryio/mson-zoo
-Cloning into 'mson-zoo'...
-remote: Counting objects: 11, done.
-remote: Compressing objects: 100% (10/10), done.
-remote: Total 11 (delta 0), reused 11 (delta 0)
-Unpacking objects: 100% (11/11), done.
-Checking connectivity... done.
-```
+1. **Install the NPM package**
 
-However, it can easily consumed from javascript as a **Npm module**
+  ```bash
+  npm install mson-zoo
+  ```
 
-```javascript
-import mson-zoo from 'mson-zoo';
-console.log(mson-zoo.samples[0]);
-```
+2. **Require the package**
+
+  ###### ES6
+
+  ```JavaScript
+  import msonZoo from 'mson-zoo';
+  ```
+
+  ###### ES5
+
+  ```JavaScript
+  var msonZoo = require('mson-zoo');
+  ```
+
+3. **Use it**
+
+  ```JavaScript
+  console.log(msonZoo.samples);
+  console.log(msonZoo.samples[0].name);
+  console.log(msonZoo.samples[0].content);
+  ```
+
+# License
+
+[MIT](./LICENSE.md).
