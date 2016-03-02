@@ -1,8 +1,10 @@
-var fs = require('fs')
+var fs = require('fs');
 
-module.exports.samples = fs.readdirSync(__dirname + '/samples').map(function(file){
-	return {
-		name: file,
-		code: fs.readFileSync(__dirname + '/samples/' + file, {encoding: 'utf8'}),	
-	};
+var SAMPLES_FOLDER_PATH = __dirname + '/samples';
+
+module.exports.samples = fs.readdirSync(SAMPLES_FOLDER_PATH).map(function(filePath) {
+  return {
+    name: filePath,
+    code: fs.readFileSync(SAMPLES_FOLDER_PATH+ '/' + filePath, {encoding: 'utf8'}),
+  };
 });
