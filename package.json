@@ -36,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/apiaryio/mson-zoo/issues"
   },
-  "homepage": "https://github.com/apiaryio/mson-zoo#readme"
+  "homepage": "https://github.com/apiaryio/mson-zoo#readme",
+  "devDependencies": {
+    "async": "^1.5.2",
+    "protagonist": "^1.2.6"
+  }
 }
