@@ -4,7 +4,9 @@
   "description": "Collection of MSON samples that can be used as a showcase or testing purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node generate.js",
+    "test": "npm run generate",
+    "prepublish": "npm run generate"
   },
   "repository": {
     "type": "git",
@@ -39,6 +41,6 @@
   "homepage": "https://github.com/apiaryio/mson-zoo#readme",
   "devDependencies": {
     "async": "^1.5.2",
-    "protagonist": "^1.2.6"
+    "drafter.js": "^2.2.0"
   }
 }

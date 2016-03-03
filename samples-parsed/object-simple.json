@@ -1,0 +1,65 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "address"
+          },
+          "value": {
+            "element": "object",
+            "content": [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "street"
+                  },
+                  "value": {
+                    "element": "string"
+                  }
+                }
+              },
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "city"
+                  },
+                  "value": {
+                    "element": "string"
+                  }
+                }
+              },
+              {
+                "element": "member",
+                "attributes": {
+                  "typeAttributes": [
+                    "required"
+                  ]
+                },
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "state"
+                  },
+                  "value": {
+                    "element": "string"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

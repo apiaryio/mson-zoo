@@ -1,0 +1,30 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "string",
+        "attributes": {
+          "samples": [
+            "street"
+          ]
+        }
+      },
+      {
+        "element": "string",
+        "content": "city"
+      },
+      {
+        "element": "string",
+        "attributes": {
+          "samples": [
+            "state"
+          ]
+        }
+      }
+    ]
+  }
+]

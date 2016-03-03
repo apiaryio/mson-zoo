@@ -1,0 +1,39 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "address"
+          },
+          "value": {
+            "element": "array",
+            "content": [
+              {
+                "element": "number"
+              },
+              {
+                "element": "number",
+                "content": 4
+              },
+              {
+                "element": "number",
+                "content": 2
+              },
+              {
+                "element": "number",
+                "content": 42
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

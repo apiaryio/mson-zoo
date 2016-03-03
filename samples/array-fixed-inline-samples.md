@@ -1,6 +1,4 @@
-# Data Structures
-
-## Example (array, fixed)
+# Example (array, fixed)
 
 - *street*
 - city

@@ -1,0 +1,42 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "attributes": {
+          "typeAttributes": [
+            "required"
+          ]
+        },
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "items"
+          },
+          "value": {
+            "element": "object",
+            "content": [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "count"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "1"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

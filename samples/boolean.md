@@ -1,1 +1,1 @@
-- street (boolean)
+# Example (boolean)

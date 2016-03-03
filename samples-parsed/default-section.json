@@ -1,0 +1,40 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "list"
+          },
+          "value": {
+            "element": "enum",
+            "attributes": {
+              "default": [
+                {
+                  "element": "string",
+                  "content": "4"
+                }
+              ]
+            },
+            "content": [
+              {
+                "element": "string",
+                "content": "3"
+              },
+              {
+                "element": "string",
+                "content": "4"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
