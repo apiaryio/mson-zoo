@@ -1,0 +1,44 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "attributes": {
+          "typeAttributes": [
+            "fixed"
+          ]
+        },
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "street"
+          },
+          "value": {
+            "element": "array",
+            "content": [
+              {
+                "element": "number"
+              },
+              {
+                "element": "number",
+                "content": 0
+              },
+              {
+                "element": "number",
+                "content": 1.5
+              },
+              {
+                "element": "number",
+                "content": 340
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

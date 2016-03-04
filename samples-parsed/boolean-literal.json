@@ -1,0 +1,40 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "attributes": {
+          "typeAttributes": [
+            "fixed"
+          ]
+        },
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "street"
+          },
+          "value": {
+            "element": "array",
+            "content": [
+              {
+                "element": "boolean"
+              },
+              {
+                "element": "boolean",
+                "content": true
+              },
+              {
+                "element": "boolean",
+                "content": false
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

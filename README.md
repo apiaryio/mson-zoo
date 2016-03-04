@@ -1,24 +1,44 @@
-# mson-zoo
+# MSON Zoo
 
-![Alt text](/media/zoo.png)
+![MSON Zoo](/media/zoo.png)
 
-This repository is a collection of MSON samples that can be used as a showcase or testing purposes.
+This repository is a collection of MSON examples, it can be used as a showcase, or for testing purposes.
 
-You can consume this adding it as a git submodule.
+## Getting Started
 
-```bash
-$ git submodule add https://github.com/apiaryio/mson-zoo
-Cloning into 'mson-zoo'...
-remote: Counting objects: 11, done.
-remote: Compressing objects: 100% (10/10), done.
-remote: Total 11 (delta 0), reused 11 (delta 0)
-Unpacking objects: 100% (11/11), done.
-Checking connectivity... done.
-```
+1. **Install the NPM package**
 
-However, it can easily consumed from javascript as a **Npm module**
+  ```bash
+  npm install mson-zoo
+  ```
 
-```javascript
-import mson-zoo from 'mson-zoo';
-console.log(mson-zoo.samples[0]);
-```
+2. **Require the package**
+
+  ###### ES6
+
+  ```JavaScript
+  import msonZoo from 'mson-zoo';
+  ```
+
+  ###### ES5
+
+  ```JavaScript
+  var msonZoo = require('mson-zoo');
+  ```
+
+3. **Use it**
+
+  ```JavaScript
+  console.log(msonZoo.samples);
+
+  var sample = msonZoo.samples[0];
+  console.log(sample.name); // Returns a name of the sample
+  console.log(sample.mson); // Returns MSON *without* header
+  console.log(sample.type); // Returns element type (e.g. `object`)
+  console.log(sample.refract); // Returns Refract element
+  console.log(sample.dataStructures); // Returns list of all elements
+  ```
+
+# License
+
+[MIT](./LICENSE.md).

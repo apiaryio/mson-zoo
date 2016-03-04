@@ -1,0 +1,54 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "_links"
+          },
+          "value": {
+            "element": "object",
+            "content": [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "attributes": {
+                      "variable": true
+                    },
+                    "content": "self"
+                  },
+                  "value": {
+                    "element": "object",
+                    "content": [
+                      {
+                        "element": "member",
+                        "content": {
+                          "key": {
+                            "element": "string",
+                            "content": "href"
+                          },
+                          "value": {
+                            "element": "string",
+                            "content": "a URI"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

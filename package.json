@@ -4,7 +4,9 @@
   "description": "Collection of MSON samples that can be used as a showcase or testing purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node generate.js",
+    "test": "npm run generate",
+    "prepublish": "npm run generate"
   },
   "repository": {
     "type": "git",
@@ -14,10 +16,31 @@
     "mson",
     "samples"
   ],
-  "author": "Apiary",
+  "author": "Apiary Inc.",
+  "contributors": [
+    {
+      "name": "František Hába",
+      "email": "frantisek@apiary.io",
+      "url": "http://www.frantisekhaba.com/"
+    },
+    {
+      "name": "Vincenzo Chianese",
+      "email": "vincenzo@apiary.io",
+      "url": "http://vncz.js.org/"
+    },
+    {
+      "name": "Daniel G. Taylor",
+      "email": "daniel@apiary.io",
+      "url": "http://programmer-art.org/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiaryio/mson-zoo/issues"
   },
-  "homepage": "https://github.com/apiaryio/mson-zoo#readme"
+  "homepage": "https://github.com/apiaryio/mson-zoo#readme",
+  "devDependencies": {
+    "async": "^1.5.2",
+    "drafter.js": "^2.2.0"
+  }
 }

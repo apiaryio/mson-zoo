@@ -1,1 +1,5 @@
-- address: street, city, state (array, fixed)
+# Example (array, fixed)
+
+- street
+- city
+- state

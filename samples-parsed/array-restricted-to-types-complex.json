@@ -1,0 +1,36 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "Example"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "tags"
+          },
+          "value": {
+            "element": "array",
+            "content": [
+              {
+                "element": "string",
+                "attributes": {
+                  "samples": [
+                    "hello"
+                  ]
+                }
+              },
+              {
+                "element": "number",
+                "content": 42
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
