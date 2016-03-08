@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 
 var SAMPLES_PATH = path.join(__dirname, 'samples');
 var PARSED_PATH = path.join(__dirname, 'samples-parsed');
