@@ -1,3 +1,3 @@
 # My Array (array)
 
-- (object)
+- (object) - Lorem ipsum dolor sit amet, consectetur adipisicing elit

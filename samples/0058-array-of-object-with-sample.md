@@ -3,3 +3,6 @@
 - (object)
   - firstName: Jan
   - lastName: Novák
+  - Sample
+      - firstName: Foo
+      - lastName: Bar

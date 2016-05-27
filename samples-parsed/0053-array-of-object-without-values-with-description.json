@@ -6,7 +6,10 @@
     },
     "content": [
       {
-        "element": "object"
+        "element": "object",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        }
       }
     ]
   }

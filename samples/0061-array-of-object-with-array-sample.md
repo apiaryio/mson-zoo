@@ -1,5 +1,11 @@
-# Example (array, fixed)
+# My Array (array)
 
-- *street*
-- city
-- *state*
+- (object)
+  - firstName: Jan
+  - lastName: Novák
+
+## Sample
+
+- (object)
+  - firstName: Foo
+  - lastName: Bar

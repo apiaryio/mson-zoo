@@ -7,6 +7,66 @@
     "content": [
       {
         "element": "object",
+        "attributes": {
+          "samples": [
+            [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "firstName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Foo"
+                  }
+                }
+              },
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "lastName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Bar"
+                  }
+                }
+              }
+            ],
+            [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "firstName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Baz"
+                  }
+                }
+              },
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "lastName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Bag"
+                  }
+                }
+              }
+            ]
+          ]
+        },
         "content": [
           {
             "element": "member",

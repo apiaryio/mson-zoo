@@ -1,0 +1,19 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string"
+      },
+      {
+        "element": "string"
+      },
+      {
+        "element": "string"
+      }
+    ]
+  }
+]

@@ -2,28 +2,76 @@
   {
     "element": "array",
     "meta": {
-      "id": "Example"
+      "id": "My Array"
+    },
+    "attributes": {
+      "samples": [
+        [
+          {
+            "element": "object",
+            "content": [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "firstName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Foo"
+                  }
+                }
+              },
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "lastName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Bar"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      ]
     },
     "content": [
       {
-        "element": "string",
-        "attributes": {
-          "samples": [
-            "street"
-          ]
-        }
-      },
-      {
-        "element": "string",
-        "content": "city"
-      },
-      {
-        "element": "string",
-        "attributes": {
-          "samples": [
-            "state"
-          ]
-        }
+        "element": "object",
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "firstName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Jan"
+              }
+            }
+          },
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "lastName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Novák"
+              }
+            }
+          }
+        ]
       }
     ]
   }

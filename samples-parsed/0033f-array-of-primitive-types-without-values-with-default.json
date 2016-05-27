@@ -1,0 +1,28 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string",
+        "attributes": {
+          "default": "foo"
+        }
+      },
+      {
+        "element": "string",
+        "attributes": {
+          "default": "bar"
+        }
+      },
+      {
+        "element": "string",
+        "attributes": {
+          "default": "baz"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "name"
+          },
+          "value": {
+            "element": "object",
+            "attributes": {
+              "samples": [
+                [
+                  {
+                    "element": "member",
+                    "content": {
+                      "key": {
+                        "element": "string",
+                        "content": "firstName"
+                      },
+                      "value": {
+                        "element": "string",
+                        "content": "Jan"
+                      }
+                    }
+                  },
+                  {
+                    "element": "member",
+                    "content": {
+                      "key": {
+                        "element": "string",
+                        "content": "lastName"
+                      },
+                      "value": {
+                        "element": "string",
+                        "content": "Novák"
+                      }
+                    }
+                  }
+                ],
+                [
+                  {
+                    "element": "member",
+                    "content": {
+                      "key": {
+                        "element": "string",
+                        "content": "firstName"
+                      },
+                      "value": {
+                        "element": "string",
+                        "content": "Zuzana"
+                      }
+                    }
+                  },
+                  {
+                    "element": "member",
+                    "content": {
+                      "key": {
+                        "element": "string",
+                        "content": "lastName"
+                      },
+                      "value": {
+                        "element": "string",
+                        "content": "Nováková"
+                      }
+                    }
+                  }
+                ]
+              ]
+            },
+            "content": [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "firstName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "František"
+                  }
+                }
+              },
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "lastName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Novák"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

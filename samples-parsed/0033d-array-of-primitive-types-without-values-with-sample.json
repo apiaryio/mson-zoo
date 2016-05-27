@@ -2,26 +2,30 @@
   {
     "element": "array",
     "meta": {
-      "id": "Example"
+      "id": "My Array"
     },
     "content": [
       {
         "element": "string",
         "attributes": {
           "samples": [
-            "street"
+            "foo"
           ]
         }
       },
       {
         "element": "string",
-        "content": "city"
+        "attributes": {
+          "samples": [
+            "bar"
+          ]
+        }
       },
       {
         "element": "string",
         "attributes": {
           "samples": [
-            "state"
+            "baz"
           ]
         }
       }
