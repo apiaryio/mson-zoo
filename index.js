@@ -18,13 +18,11 @@ module.exports.samples = fs.readdirSync(SAMPLES_PATH).map(function (filePath) {
   if (mson[0] === '#') {
     mson = mson.split('\n').slice(1).join('\n');
   }
-
-  return {
+  return ({
     name: filePath,
-    code: mson, // For backward-compatibility
     mson: mson,
     type: structures[0].element,
     refract: structures[0],
     dataStructures: structures
-  };
+  });
 });
