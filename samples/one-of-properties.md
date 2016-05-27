@@ -1,6 +1,0 @@
-- person (object)
-    - One Of
-        - Properties
-            - first_name
-            - last_name
-        - full_name

@@ -1,0 +1,34 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "attributes": {
+      "default": [
+        {
+          "element": "string",
+          "content": "Lorem ipsum"
+        },
+        {
+          "element": "string",
+          "content": "Isamet pidet"
+        }
+      ]
+    },
+    "content": [
+      {
+        "element": "string",
+        "content": "street"
+      },
+      {
+        "element": "string",
+        "content": "city"
+      },
+      {
+        "element": "string",
+        "content": "state"
+      }
+    ]
+  }
+]

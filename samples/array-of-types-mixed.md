@@ -1,3 +1,0 @@
-- tags (array)
-    - hello (string)
-    - 42 (number)

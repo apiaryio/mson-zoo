@@ -1,4 +1,0 @@
-- enum (enum)
-    - 1, 2, 3, 4 (enum[number])
-    - something (string)
-    - anything (string)

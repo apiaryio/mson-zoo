@@ -1,5 +1,0 @@
-- city
-- One Of
-    - state
-    - province
-- country

@@ -1,0 +1,73 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "attributes": {
+      "samples": [
+        [
+          {
+            "element": "array",
+            "content": [
+              {
+                "element": "string",
+                "content": "Pidet"
+              },
+              {
+                "element": "string",
+                "content": "Quiudu"
+              },
+              {
+                "element": "string",
+                "content": "Delime"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "element": "array",
+            "content": [
+              {
+                "element": "string",
+                "content": "Muhet"
+              },
+              {
+                "element": "string",
+                "content": "Amenho"
+              },
+              {
+                "element": "string",
+                "content": "Tepen"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "content": [
+      {
+        "element": "array",
+        "content": [
+          {
+            "element": "string",
+            "content": "Lorem"
+          },
+          {
+            "element": "string",
+            "content": "Ipsum"
+          },
+          {
+            "element": "string",
+            "content": "Dolor"
+          },
+          {
+            "element": "string",
+            "content": "Isamet"
+          }
+        ]
+      }
+    ]
+  }
+]

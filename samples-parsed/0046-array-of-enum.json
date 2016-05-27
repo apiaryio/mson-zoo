@@ -1,0 +1,27 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "enum",
+        "content": [
+          {
+            "element": "string",
+            "content": "Lorem"
+          },
+          {
+            "element": "string",
+            "content": "Ipsum"
+          },
+          {
+            "element": "string",
+            "content": "Dolor"
+          }
+        ]
+      }
+    ]
+  }
+]

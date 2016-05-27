@@ -1,0 +1,22 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string",
+        "content": "street"
+      },
+      {
+        "element": "string",
+        "content": "city"
+      },
+      {
+        "element": "string",
+        "content": "state"
+      }
+    ]
+  }
+]

@@ -1,3 +1,0 @@
-- gender (enum)
-    - male
-    - female
