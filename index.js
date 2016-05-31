@@ -6,11 +6,12 @@ var PARSED_PATH = path.join(__dirname, 'samples-parsed');
 
 module.exports.samples = fs.readdirSync(SAMPLES_PATH).map(function (fileName) {
   var filePath = path.join(SAMPLES_PATH, fileName);
-  var fileContent = fs.readFileSync(filePath);
+  var fileContent = fs.readFileSync(filePath, 'utf8');
 
   var dataStructures = JSON.parse(
     fs.readFileSync(
-      path.join(PARSED_PATH, fileName.replace('.md', '.json'))
+      path.join(PARSED_PATH, fileName.replace('.md', '.json')),
+      'utf8'
     )
   );
 
