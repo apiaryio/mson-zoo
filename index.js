@@ -4,20 +4,23 @@ var path = require('path');
 var SAMPLES_PATH = path.join(__dirname, 'samples');
 var PARSED_PATH = path.join(__dirname, 'samples-parsed');
 
-module.exports.samples = fs.readdirSync(SAMPLES_PATH).map(function (filePath) {
-  var mson = fs.readFileSync(path.join(SAMPLES_PATH, filePath), 'utf8');
+module.exports.samples = fs.readdirSync(SAMPLES_PATH).map(function (fileName) {
+  var filePath = path.join(SAMPLES_PATH, fileName);
+  var fileContent = fs.readFileSync(filePath);
 
-  var structures = JSON.parse(
+  var dataStructures = JSON.parse(
     fs.readFileSync(
-      path.join(PARSED_PATH, filePath.replace('.md', '.json')), 'utf8'
+      path.join(PARSED_PATH, fileName.replace('.md', '.json'))
     )
   );
 
-  return ({
-    name: filePath,
-    mson: mson,
-    type: structures[0].element,
-    refract: structures[0],
-    dataStructures: structures
-  });
+  return {
+    fileName: fileName,
+    filePath: filePath,
+    fileContent: fileContent,
+    dataStructureType: dataStructures[0].element,
+    dataStructureName: dataStructures[0].meta.id,
+    dataStructure: dataStructures[0],
+    dataStructures: dataStructures,
+  };
 });
