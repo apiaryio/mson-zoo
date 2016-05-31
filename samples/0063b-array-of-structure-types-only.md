@@ -1,1 +1,5 @@
-- address: street, city, state (array)
+# My Array (array)
+
+- (object)
+- (enum)
+- (array)

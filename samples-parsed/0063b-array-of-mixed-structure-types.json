@@ -1,35 +1,66 @@
 [
   {
-    "element": "object",
+    "element": "array",
     "meta": {
-      "id": "Example"
+      "id": "My Array"
     },
     "content": [
       {
-        "element": "member",
-        "content": {
-          "key": {
-            "element": "string",
-            "content": "address"
-          },
-          "value": {
-            "element": "array",
-            "content": [
-              {
+        "element": "object",
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
                 "element": "string",
-                "content": "street"
+                "content": "firstName"
               },
-              {
+              "value": {
                 "element": "string",
-                "content": "city"
-              },
-              {
-                "element": "string",
-                "content": "state"
+                "content": "Jan"
               }
-            ]
+            }
+          },
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "lastName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Novák"
+              }
+            }
           }
-        }
+        ]
+      },
+      {
+        "element": "enum",
+        "content": [
+          {
+            "element": "string",
+            "content": "online"
+          },
+          {
+            "element": "string",
+            "content": "offline"
+          }
+        ]
+      },
+      {
+        "element": "array",
+        "content": [
+          {
+            "element": "string",
+            "content": "foo"
+          },
+          {
+            "element": "string",
+            "content": "bar"
+          }
+        ]
       }
     ]
   }

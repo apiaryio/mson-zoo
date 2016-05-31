@@ -1,35 +1,21 @@
 [
   {
-    "element": "object",
+    "element": "array",
     "meta": {
-      "id": "Example"
+      "id": "My Array"
     },
     "content": [
       {
-        "element": "member",
-        "content": {
-          "key": {
-            "element": "string",
-            "content": "address"
-          },
-          "value": {
-            "element": "array",
-            "content": [
-              {
-                "element": "string",
-                "content": "street"
-              },
-              {
-                "element": "string",
-                "content": "city"
-              },
-              {
-                "element": "string",
-                "content": "state"
-              }
-            ]
-          }
-        }
+        "element": "string",
+        "content": "hello"
+      },
+      {
+        "element": "number",
+        "content": 1
+      },
+      {
+        "element": "boolean",
+        "content": true
       }
     ]
   }
