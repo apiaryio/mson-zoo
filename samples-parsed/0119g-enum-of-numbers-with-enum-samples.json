@@ -1,0 +1,38 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "attributes": {
+      "samples": [
+        [
+          {
+            "element": "string",
+            "content": "1"
+          }
+        ],
+        [
+          {
+            "element": "string",
+            "content": "2"
+          }
+        ]
+      ]
+    },
+    "content": [
+      {
+        "element": "number",
+        "content": 1
+      },
+      {
+        "element": "number",
+        "content": 2
+      },
+      {
+        "element": "number",
+        "content": 3
+      }
+    ]
+  }
+]

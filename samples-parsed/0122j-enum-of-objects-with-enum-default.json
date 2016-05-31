@@ -1,0 +1,59 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "content": [
+      {
+        "element": "object",
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "firstName"
+              },
+              "value": {
+                "element": "string",
+                "content": "František"
+              }
+            }
+          },
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "lastName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Novák"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "element": "object",
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "name"
+              },
+              "value": {
+                "element": "string",
+                "content": "František Novák"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

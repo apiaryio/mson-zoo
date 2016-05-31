@@ -1,0 +1,23 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n\n"
+    },
+    "content": [
+      {
+        "element": "number",
+        "content": 1
+      },
+      {
+        "element": "number",
+        "content": 2
+      },
+      {
+        "element": "number",
+        "content": 3
+      }
+    ]
+  }
+]

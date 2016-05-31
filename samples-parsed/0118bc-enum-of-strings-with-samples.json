@@ -1,0 +1,24 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "content": [
+      {
+        "element": "string",
+        "attributes": {
+          "samples": [
+            "true",
+            "1"
+          ]
+        },
+        "content": "online"
+      },
+      {
+        "element": "string",
+        "content": "offline"
+      }
+    ]
+  }
+]

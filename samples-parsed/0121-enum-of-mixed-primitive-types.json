@@ -1,0 +1,22 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "content": [
+      {
+        "element": "boolean",
+        "content": true
+      },
+      {
+        "element": "string",
+        "content": "online"
+      },
+      {
+        "element": "number",
+        "content": 1
+      }
+    ]
+  }
+]

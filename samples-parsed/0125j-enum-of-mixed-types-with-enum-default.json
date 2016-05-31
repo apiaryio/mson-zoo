@@ -1,0 +1,87 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "content": [
+      {
+        "element": "string",
+        "content": "foo"
+      },
+      {
+        "element": "array",
+        "content": [
+          {
+            "element": "string",
+            "content": "1"
+          },
+          {
+            "element": "string",
+            "content": "2"
+          },
+          {
+            "element": "string",
+            "content": "3"
+          }
+        ]
+      },
+      {
+        "element": "number",
+        "content": 1
+      },
+      {
+        "element": "object",
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "firstName"
+              },
+              "value": {
+                "element": "string",
+                "content": "František"
+              }
+            }
+          },
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "lastName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Novák"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "element": "boolean",
+        "content": true
+      },
+      {
+        "element": "enum",
+        "content": [
+          {
+            "element": "string",
+            "content": "foo"
+          },
+          {
+            "element": "string",
+            "content": "bar"
+          },
+          {
+            "element": "string",
+            "content": "baz"
+          }
+        ]
+      }
+    ]
+  }
+]

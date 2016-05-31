@@ -1,0 +1,8 @@
+# My Enum (enum)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt auctor erat nec vulputate. Donec ut urna urna. Phasellus nisl dolor, posuere non placerat a, efficitur nec elit. Cras mattis nulla et volutpat ullamcorper.
+
+## Items
+
+- online
+- offline
