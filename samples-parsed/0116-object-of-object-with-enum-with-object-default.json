@@ -1,0 +1,54 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "attributes": {
+      "default": [
+        {
+          "element": "member",
+          "content": {
+            "key": {
+              "element": "string",
+              "content": "status"
+            },
+            "value": {
+              "element": "enum",
+              "content": [
+                {
+                  "element": "string",
+                  "content": "online"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "status"
+          },
+          "value": {
+            "element": "enum",
+            "content": [
+              {
+                "element": "string",
+                "content": "online"
+              },
+              {
+                "element": "string",
+                "content": "offline"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "content": [
+      {
+        "element": "member",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "firstName"
+          },
+          "value": {
+            "element": "string",
+            "content": "František"
+          }
+        }
+      },
+      {
+        "element": "member",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "lastName"
+          },
+          "value": {
+            "element": "string",
+            "content": "Polášek"
+          }
+        }
+      }
+    ]
+  }
+]

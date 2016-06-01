@@ -1,0 +1,24 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "content": [
+      {
+        "element": "boolean",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        "content": true
+      },
+      {
+        "element": "boolean",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        "content": false
+      }
+    ]
+  }
+]

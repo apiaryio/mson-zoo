@@ -1,0 +1,45 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "names"
+          },
+          "value": {
+            "element": "array",
+            "content": [
+              {
+                "element": "string",
+                "meta": {
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                },
+                "content": "František"
+              },
+              {
+                "element": "string",
+                "meta": {
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                },
+                "content": "Jan"
+              },
+              {
+                "element": "string",
+                "meta": {
+                  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+                },
+                "content": "Ondřej"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

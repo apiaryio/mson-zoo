@@ -1,0 +1,17 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string",
+        "attributes": {
+          "default": "bar"
+        },
+        "content": "foo"
+      }
+    ]
+  }
+]

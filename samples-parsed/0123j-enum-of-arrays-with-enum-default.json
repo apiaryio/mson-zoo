@@ -1,0 +1,44 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "content": [
+      {
+        "element": "array",
+        "content": [
+          {
+            "element": "string",
+            "content": "1"
+          },
+          {
+            "element": "string",
+            "content": "2"
+          },
+          {
+            "element": "string",
+            "content": "3"
+          }
+        ]
+      },
+      {
+        "element": "array",
+        "content": [
+          {
+            "element": "string",
+            "content": "foo"
+          },
+          {
+            "element": "string",
+            "content": "bar"
+          },
+          {
+            "element": "string",
+            "content": "baz"
+          }
+        ]
+      }
+    ]
+  }
+]

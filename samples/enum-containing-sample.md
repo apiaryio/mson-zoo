@@ -1,3 +1,0 @@
-- tag (enum)
-    - green (string)
-    - *5* (number)

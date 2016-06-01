@@ -1,5 +1,0 @@
-- colors (array)
-  - Sample: red
-  - Sample
-      - blue
-      - green

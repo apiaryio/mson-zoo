@@ -1,0 +1,84 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "attributes": {
+      "samples": [
+        [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "names"
+              },
+              "value": {
+                "element": "array",
+                "content": [
+                  {
+                    "element": "string",
+                    "content": "František"
+                  },
+                  {
+                    "element": "string",
+                    "content": "Jan"
+                  }
+                ]
+              }
+            }
+          }
+        ],
+        [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "names"
+              },
+              "value": {
+                "element": "array",
+                "content": [
+                  {
+                    "element": "string",
+                    "content": "Ondřej"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "names"
+          },
+          "value": {
+            "element": "array",
+            "content": [
+              {
+                "element": "string",
+                "content": "František"
+              },
+              {
+                "element": "string",
+                "content": "Jan"
+              },
+              {
+                "element": "string",
+                "content": "Ondřej"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

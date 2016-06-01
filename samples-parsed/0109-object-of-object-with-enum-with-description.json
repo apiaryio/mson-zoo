@@ -1,0 +1,35 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "content": [
+      {
+        "element": "member",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        },
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "status"
+          },
+          "value": {
+            "element": "enum",
+            "content": [
+              {
+                "element": "string",
+                "content": "online"
+              },
+              {
+                "element": "string",
+                "content": "offline"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

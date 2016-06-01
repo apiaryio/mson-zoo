@@ -1,0 +1,28 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "attributes": {
+      "samples": [
+        [
+          {
+            "element": "string",
+            "content": "foo"
+          },
+          {
+            "element": "string",
+            "content": "bar"
+          }
+        ]
+      ]
+    },
+    "content": [
+      {
+        "element": "string",
+        "content": "foo"
+      }
+    ]
+  }
+]

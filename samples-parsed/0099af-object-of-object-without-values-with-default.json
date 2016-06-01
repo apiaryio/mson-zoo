@@ -1,0 +1,39 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "name"
+          },
+          "value": {
+            "element": "object",
+            "attributes": {
+              "default": [
+                {
+                  "element": "member",
+                  "content": {
+                    "key": {
+                      "element": "string",
+                      "content": "foo"
+                    },
+                    "value": {
+                      "element": "string",
+                      "content": "bar"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+]

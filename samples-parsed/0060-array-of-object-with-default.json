@@ -1,0 +1,71 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "object",
+        "attributes": {
+          "default": [
+            {
+              "element": "member",
+              "content": {
+                "key": {
+                  "element": "string",
+                  "content": "firstName"
+                },
+                "value": {
+                  "element": "string",
+                  "content": "Foo"
+                }
+              }
+            },
+            {
+              "element": "member",
+              "content": {
+                "key": {
+                  "element": "string",
+                  "content": "lastName"
+                },
+                "value": {
+                  "element": "string",
+                  "content": "Bar"
+                }
+              }
+            }
+          ]
+        },
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "firstName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Jan"
+              }
+            }
+          },
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "lastName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Novák"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

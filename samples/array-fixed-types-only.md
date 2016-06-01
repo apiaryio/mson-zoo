@@ -1,3 +1,0 @@
-- tags (array, fixed)
-    - (string)
-    - (number)

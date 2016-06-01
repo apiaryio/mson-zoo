@@ -1,0 +1,44 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "object",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt."
+        },
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "firstName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Jan"
+              }
+            }
+          },
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "lastName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Novák"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

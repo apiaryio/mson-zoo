@@ -1,0 +1,22 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string",
+        "content": "hello"
+      },
+      {
+        "element": "number",
+        "content": 1
+      },
+      {
+        "element": "boolean",
+        "content": true
+      }
+    ]
+  }
+]

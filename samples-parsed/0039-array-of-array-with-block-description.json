@@ -1,0 +1,31 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "array",
+        "content": [
+          {
+            "element": "string",
+            "content": "Lorem"
+          },
+          {
+            "element": "string",
+            "content": "Ipsum"
+          },
+          {
+            "element": "string",
+            "content": "Dolor"
+          },
+          {
+            "element": "string",
+            "content": "Isamet"
+          }
+        ]
+      }
+    ]
+  }
+]

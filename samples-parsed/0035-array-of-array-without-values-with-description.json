@@ -1,0 +1,16 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "array",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        }
+      }
+    ]
+  }
+]

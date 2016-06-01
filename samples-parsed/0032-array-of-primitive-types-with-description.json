@@ -1,0 +1,31 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        },
+        "content": "street"
+      },
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        },
+        "content": "city"
+      },
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        },
+        "content": "state"
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "element": "object",
+    "meta": {
+      "id": "My Object"
+    },
+    "content": [
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "items"
+          },
+          "value": {
+            "element": "array",
+            "content": [
+              {
+                "element": "string",
+                "content": "foo"
+              },
+              {
+                "element": "string",
+                "content": "bar"
+              },
+              {
+                "element": "string",
+                "content": "baz"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "name"
+          },
+          "value": {
+            "element": "object",
+            "content": [
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "firstName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "František"
+                  }
+                }
+              },
+              {
+                "element": "member",
+                "content": {
+                  "key": {
+                    "element": "string",
+                    "content": "lastName"
+                  },
+                  "value": {
+                    "element": "string",
+                    "content": "Novák"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "element": "member",
+        "content": {
+          "key": {
+            "element": "string",
+            "content": "status"
+          },
+          "value": {
+            "element": "enum",
+            "content": [
+              {
+                "element": "string",
+                "content": "online"
+              },
+              {
+                "element": "string",
+                "content": "offline"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "object",
+        "content": [
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "firstName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Jan"
+              }
+            }
+          },
+          {
+            "element": "member",
+            "content": {
+              "key": {
+                "element": "string",
+                "content": "lastName"
+              },
+              "value": {
+                "element": "string",
+                "content": "Novák"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "element": "enum",
+        "content": [
+          {
+            "element": "string",
+            "content": "online"
+          },
+          {
+            "element": "string",
+            "content": "offline"
+          }
+        ]
+      },
+      {
+        "element": "array",
+        "content": [
+          {
+            "element": "string",
+            "content": "foo"
+          },
+          {
+            "element": "string",
+            "content": "bar"
+          }
+        ]
+      }
+    ]
+  }
+]

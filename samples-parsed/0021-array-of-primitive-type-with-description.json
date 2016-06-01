@@ -1,0 +1,17 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor isamet pidet quidu delime."
+        },
+        "content": "foo"
+      }
+    ]
+  }
+]

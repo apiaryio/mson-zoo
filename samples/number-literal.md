@@ -1,4 +1,0 @@
-- street (array[number], fixed)
-    - 0
-    - 1.5
-    - 340

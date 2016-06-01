@@ -1,0 +1,24 @@
+[
+  {
+    "element": "enum",
+    "meta": {
+      "id": "My Enum"
+    },
+    "content": [
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        "content": "online"
+      },
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        },
+        "content": "offline"
+      }
+    ]
+  }
+]

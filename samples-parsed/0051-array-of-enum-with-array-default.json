@@ -1,0 +1,48 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "attributes": {
+      "default": [
+        {
+          "element": "enum",
+          "content": [
+            {
+              "element": "string",
+              "content": "Amet"
+            },
+            {
+              "element": "string",
+              "content": "Consectetur"
+            },
+            {
+              "element": "string",
+              "content": "Adipisicing"
+            }
+          ]
+        }
+      ]
+    },
+    "content": [
+      {
+        "element": "enum",
+        "content": [
+          {
+            "element": "string",
+            "content": "Lorem"
+          },
+          {
+            "element": "string",
+            "content": "Ipsum"
+          },
+          {
+            "element": "string",
+            "content": "Dolor"
+          }
+        ]
+      }
+    ]
+  }
+]

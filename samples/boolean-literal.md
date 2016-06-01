@@ -1,3 +1,0 @@
-- street (array[boolean], fixed)
-    - true
-    - false

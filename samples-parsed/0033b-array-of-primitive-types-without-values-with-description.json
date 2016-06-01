@@ -1,0 +1,28 @@
+[
+  {
+    "element": "array",
+    "meta": {
+      "id": "My Array"
+    },
+    "content": [
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        }
+      },
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        }
+      },
+      {
+        "element": "string",
+        "meta": {
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+        }
+      }
+    ]
+  }
+]
